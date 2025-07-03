@@ -59,7 +59,7 @@ INSERT INTO user_login (username, event_type, event_time) VALUES
 python produser.py 
 ```
 Продюсер начнет выбирать события из PostgreSQL и отправлять их в Kafka.
-Запуск консума («consumer.py»):
+Запуск консумера («consumer.py»):
 ```
 python consumer.py
 ```
